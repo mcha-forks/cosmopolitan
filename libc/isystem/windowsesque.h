@@ -40,7 +40,7 @@
 
 #define LONG int32_t /* [sic] */
 #define WCHAR char16_t /* [sic] */
-#define BOOL bool32 /* [sic] */
+#define BOOL uint8_t /* [sic] */
 
 #define TRUE 1
 #define FALSE 0
