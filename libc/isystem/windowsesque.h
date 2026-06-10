@@ -40,7 +40,7 @@
 
 #define LONG int32_t /* [sic] */
 #define WCHAR char16_t /* [sic] */
-#define BOOL uint8_t /* [sic] */
+#define BOOL bool32 /* [sic] */
 
 #define TRUE 1
 #define FALSE 0
@@ -185,14 +185,14 @@
 #define PUCHAR UCHAR*
 #define PSZ char*
 #define DWORD uint32_t
-#define WINBOOL BOOL
-#define BOOLEAN BOOL
+#define WINBOOL LONG
+#define BOOLEAN BYTE
 #define BYTE unsigned char
 #define WORD unsigned short
 #define FLOAT float
 #define PFLOAT FLOAT*
 #define PBOOL WINBOOL*
-#define PBOOLEAN WINBOOL*
+#define PBOOLEAN BOOLEAN*
 #define LPBOOL WINBOOL*
 #define PBYTE BYTE*
 #define LPBYTE BYTE*
